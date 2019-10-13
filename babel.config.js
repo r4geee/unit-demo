@@ -11,7 +11,9 @@ module.exports = function (api) {
             },
         ],
     ];
-    const plugins = [];
+    const plugins = [
+        "rewire"
+    ];
 
     return {
         presets,
